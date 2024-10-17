@@ -5,23 +5,89 @@ format: html
 editor: visual
 ---
 
-## 09/02/2024
+## Worksheet 2 & 3: Measures of disease frequency
 
-Find area of a circle with radius 5
+![](images/ss_table.png)
 
-Formula: ¶ \* r\^2
+1\) Find the sample size necessary to detect a disease at or above 5% prevalence in a\
+herd of 5000 deer. The desired level of confidence is 95%.
 
-where r is the radius.
+59 is the necessary sample size to detect a disease at or above 5% prevalence in a herd of 5000 deer.
 
-```{r}
-# Function to calculate the area of a circle
-area_of_circle <- function(radius) {
-  area <- pi * radius^2
-  return(area)
-}
-radius <- 5 # from the example
-circle_area <- area_of_circle(radius)
-cat("The area of the circle with radius", radius, "is", circle_area, "\n")
-```
+2\) Using the hypergeometric distribution, compare the sample size requirements for the\
+following scenarios:\
+a) 95% confidence in detecting a disease at 1% prevalence in a large population
 
-![This is an image of the triad of components that lead to disease. The triangle represents how the pathogen, host, and environment all play a role in contracting a disease. Showing that disease is not simply a host-pathogen relationship.](images/clipboard-2779519854.png)
+b\) 99% confidence in detecting a disease at 2% prevalence in a large population
+
+The sample size requirements for detecting disease at 1% prevalence with 95% confidence is 299 and at 2% prevalence at 99% confidence, the sample size is 229.
+
+3\) You sample 300 deer from a high fenced facility that has a herd of 4000. None of the\
+300 have antibodies against Epizootic Hemorrhagic Disease. Based on this finding, you\
+are 95% confident that the prevalence of exposure to EHD in this facility is \_\_\_\_\_ (\<, =,\
+\>) \_\_\_\_%.
+
+=0%
+
+4\) An outbreak of ‘Lame disease’ has been reported in wild turkey populations of\
+Alabama. Turkeys from three counties were sampled for lameness (Lee, Chambers and\
+Russell counties).\
+a) Analyze the sample data to determine prevalence of lameness in each county.\
+Provide confidence interval for prevalence using Sterne’s method.
+
+The prevalence of lame turkeys in Chambers County was 26.7% (95% CI; 13.1% to 44.9%).
+
+The prevalence of lameness in turkeys in Lee Couny is 20.0% (95% CI; 14.3% to 27.3%).
+
+The prevalence of lameness in turkeys in Russell County is 3.1% (95% CI; 0.9% to 8.7%).
+
+\
+b) Compare prevalences using Fisher’s exact test.
+
+Utilizing QPweb software, there is a p-value of \<0.0001 meaning that the differences between the prevalence of lame turkeys in 3 different counties is statically significant.
+
+5\) Jane was studying the spread of Pink Spot Disease (PSD) in a pond that had 60 fish.\
+She introduced an infectious fish in the pond on day 0. Her observations are as follows:\
+Day 1: 3 fish infected\
+Day 2: 4 fish infected\
+Day 3: 7 fish infected\
+Day 4: 11 fish infected\
+Day 5: 20 fish infected\
+Note that there is no disease-related mortality. The observations denote all infected fish\
+in the pond (including previously infected fish).\
+
+a\) Find incidence on day 1, day 2 and day 5. Write the unit for incidence.
+
+Day 1 Incidence: 0.05 cases per fish per day
+
+Day 2 Incidence: 0.070 cases per fish per day
+
+Day 5 Incidence: 0.571 cases per fish per day
+
+\
+b) What is the prevalence of PSD on day 3 and day 5?
+
+Day 3 Prevalence: 23.3%
+
+Day 5 Prevalence: 75%
+
+\
+c) On which day is the prevalence same as the incidence (except the units)?
+
+On day 1, the prevalence is the same as the incidence regardless of units. That number being 0.05.\
+
+# Worksheet 4: Model-informed wildlife disease management
+
+When developing wildlife disease management plans, utilizing disease models is crucial. These models act as forecasting and problem-solving tools, grounded in assumptions about the population, the ecology of the pathogen, and environmental factors. Essentially, they serve as testable hypotheses aimed at addressing specific issues within wildlife populations. However, it's important to remember that each model has its own objectives, even when exploring different aspects of the same disease.
+
+At their core, disease models operate as "if, then" statements, simulating how a population might respond under defined conditions. This means they are simplifications and don’t always capture the complexity of real-world dynamics. They shouldn’t be seen as absolute truths but rather representations of potential scenarios based on the assumptions made. Nature is unpredictable, and the “truth” is subjective, influenced by numerous known and unknown ecological and environmental factors.
+
+One of the significant advantages of disease models is their capacity to aid in decision-making for wildlife management. By creating models, managers can forecast various outcomes based on specific needs or objectives. For instance, a manager might use a model to simulate the impact of a disease on a certain population, helping to identify the most effective management strategies. This predictive ability allows managers to implement actions that align with the model’s projections while encouraging systematic data collection about the population and its habitat.
+
+However, managers need to maintain a realistic understanding of the assumptions underlying their models. The ecology of pathogens can often be poorly understood, which might lead to oversimplified conclusions. Managers need to be cautious about the limitations of their models, recognizing that these tools provide frameworks for potential outcomes rather than definitive answers. For example, if a model predicts a decline in a population due to disease, it may not consider other influencing factors—like environmental changes or interactions with other species—that could affect real outcomes.
+
+Moreover, effective wildlife management shouldn’t rely solely on disease models. They should be used alongside other management strategies. Integrating controlled burns for habitat management or culling for population control can significantly enhance the overall effectiveness of a management plan. These additional tools provide context and support for the forecasts generated by models, resulting in a more comprehensive approach.
+
+Combining modeling with practical management techniques enables wildlife managers to explore multiple avenues. This combination allows for the development of flexible management plans that are able to respond to the complexities of the real world.
+
+In conclusion, while disease models are invaluable for designing and implementing wildlife disease management plans, they must be applied thoughtfully and in conjunction with other management approaches. Acknowledging the inherent limitations of models and the complexities of natural systems will help ensure that wildlife management efforts are effective, adaptive, and rooted in a realistic understanding of ecological dynamics. This balanced approach can enhance the likelihood of achieving the desired outcomes that the model is being used for.
