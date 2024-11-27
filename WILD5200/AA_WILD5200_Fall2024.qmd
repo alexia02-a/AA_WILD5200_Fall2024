@@ -91,3 +91,58 @@ Moreover, effective wildlife management shouldn’t rely solely on disease model
 Combining modeling with practical management techniques enables wildlife managers to explore multiple avenues. This combination allows for the development of flexible management plans that are able to respond to the complexities of the real world.
 
 In conclusion, while disease models are invaluable for designing and implementing wildlife disease management plans, they must be applied thoughtfully and in conjunction with other management approaches. Acknowledging the inherent limitations of models and the complexities of natural systems will help ensure that wildlife management efforts are effective, adaptive, and rooted in a realistic understanding of ecological dynamics. This balanced approach can enhance the likelihood of achieving the desired outcomes that the model is being used for.
+
+# Worksheet 5: Fecal Flotation Lab
+
+In this lab, we were instructed on how to perform fecal tests, also known as fecal flotation
+tests. These tests are designed to detect the presence of parasites in various domestic animals by
+identifying and counting parasitic eggs. Fecal tests are relatively short to run, taking around 5-15
+minutes. These tests are great tools for parasite detection and offer quick and efficient results.
+
+To perform the test, we were instructed to gather 2 grams of a fecal sample into a cup.
+Then 13 mL of sugar water is added to the cup and mixed with the sample to form an aqueous
+solution. In a test tube, part of the aqueous solution will be mixed with 1mL of sugar water. The
+mixing is done by pipetting the aqueous solution into the test tube and continually pipetting until
+the sample is mixed in. This is now put in a vortexing apparatus where the sample is vortexed
+and quickly moved into a smaller test tube. The sample is then set aside to sit for 5 minutes
+which after it is put onto a microscope slide. After on the slide, the sample is ready for egg
+counting while put under a microscope.
+
+# Worksheet 6: Marburg Virus
+
+![](images/05-0306-F2.gif){width="195"}
+
+The Marburg virus outbreak described is something I would classify as a spillover event rather than an emerging infectious disease. I say this because of the way the disease is spreading and the point of its spread. The disease was traced back to the reservoir species and the spread is only facilitated by the close proximity in which health care workers must work with patients. However, though it is only a spillover now, there is room for it to grow into an emerging infectious disease if the disease were to spread and sustain itself within that area.
+
+In order to reduce the risk of this Marburg virus spillover from shifting into an emerging infectious disease, disease prevention methods must be taken. One measure would be reducing the number of nurses who care for one patient, especially a patient infected with the Marburg virus. Since transmission is highest within the healthcare setting, cases in the community may be coming from professionals and patients in that field. To reduce the risk of transmission within the community, ensuring that all discharged from the hospitals and working medical professionals follow sanitation and hospital protocols. Though both of these pose an issue with trying to control human behavior, to combat this, the risk of disease and incentives should be given to hospital staff.
+
+# Worksheet 7, 8, and 9
+
+Of the 106 raccoons necropsied, for this data set, I compared the number of infected by region and sex. I picked this specific combination to look at the possibility of transmission in male raccoons. In raccoons, males have larger home ranges that they span, which often increase in size during breeding seasons. Large home ranges allow infected males the opportunity to come in contact with other wildlife and spread raccoon roundworm. This could expand the parasite's range of paratenic hosts and cause more spillovers, ultimately increasing the chances for it to become an emerging infection.
+
+I divided my infected-sex prevalence comparisons by regions: North, Central, and South.
+
+| *North*     | N   | Infected | Non-inf | Prev. % | Mean \# of Parasites |
+|-------------|-----|----------|---------|---------|----------------------|
+| **Females** | 21  | 8        | 13      | 38.1    | 4.75                 |
+| **Males**   | 28  | 6        | 22      | 21.4    | 1.83                 |
+
+: Female; (95% CI; 0.197-0.597) Male; (95% CI; 0.098-0.409)
+
+| *Central*   | N   | Infected | Non-inf | Prev.% | Mean \# of Parasites |
+|-------------|-----|----------|---------|--------|----------------------|
+| **Females** | 5   | 5        | 0       | 100.0  | 14.80                |
+| **Males**   | 9   | 4        | 5       | 44.4   | 9.00                 |
+
+: Female; (95% CI; 0.500-1.000) Male; (95% CI; 0.169-0.749)
+
+| *South*     | N   | Infected | Non-inf | Prev.% | Mean \# of Parasities |
+|-------------|-----|----------|---------|--------|-----------------------|
+| **Females** | 11  | 11       | 0       | 100.0  | 20.27                 |
+| **Males**   | 32  | 16       | 16      | 50.0   | 5.62                  |
+
+: Female; (95% CI; 0.736-1.000) Male; (95% CI; 0.326-0.674)
+
+To summarize the results of my analysis of the data, overall, I found that females of all regions studied were more often infected with raccoon roundworm than males. However, to note a discrepancy, males had larger sample sizes in each region. On average, females also carried a higher parasitic load than males.
+
+It can be thought that females are more often infected than males because they are less solitary than males. Caring for kits and scavenging resources may put females at increased risk for transmission of the parasite. Transmission could also occur to kits increasing the infection rate of both males and females. The necropsy data also shows that males were sampled more likely due to their increased home ranges.
